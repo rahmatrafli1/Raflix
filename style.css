@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Fredoka", Arial, sans-serif;
+}
+
+.image-maintop {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("img/ID-id-20220307-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  padding-top: 60px;
+  padding-bottom: 82px;
+}
+
+.image-maintop .header img {
+  width: 120px;
+  height: 90px;
+  float: left;
+  position: relative;
+  left: 50px;
+  top: -50px;
+}
+
+.image-maintop .container {
+  text-align: center;
+  color: rgb(204, 204, 204);
+  opacity: 1;
+  margin: 100px;
+}
+
+.image-maintop .container h1 {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.image-maintop .container h2 {
+  font-weight: normal;
+}
+
+.image-maintop .container .btn {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+  color: white;
+  border-radius: 5px;
+  width: 90px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  left: -56px;
+}
+
+.image-maintop .container .btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.image-maintop .container .mulai {
+  background-color: red;
+  font-family: "Fredoka", Arial, sans-serif;
+  font-size: 14px;
+  border: 1px solid red;
+}
+
+.image-maintop .container input[type="text"] {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 16px;
+  width: 400px;
+  font-family: "Fredoka", Arial, sans-serif;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.mainmid {
+  border-top: 8px solid gray;
+  border-bottom: 8px solid gray;
+}
+
+.mainmid .cardtv {
+  border-top: 1px solid gray;
+  border-bottom: 8px solid gray;
+  background-color: black;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.mainmid .cardtv img {
+  margin: 45px 0 0 0;
+  width: 240px;
+  height: 170px;
+}
+
+.mainmid .cardtv .content {
+  color: whitesmoke;
+  float: left;
+  margin: 60px 0 0 30px;
+  padding: 0px;
+}
+
+.mainmid .cardtv .content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mainmid .cardtv .content h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.mainmid .cardhp {
+  border-top: 1px solid gray;
+  border-bottom: 8px solid gray;
+  background-color: black;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.mainmid .cardhp img {
+  margin: 45px 0 0 0;
+  width: 240px;
+  height: 170px;
+}
+
+.mainmid .cardhp .content {
+  color: whitesmoke;
+  float: right;
+  margin: 68px 60px 0 0px;
+  padding: 0px;
+}
+
+.mainmid .cardhp .content h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainmid .cardhp .content h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.mainmid .cardany {
+  border-top: 1px solid gray;
+  border-bottom: 8px solid gray;
+  background-color: black;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.mainmid .cardany img {
+  margin: 45px 0 0 0;
+  width: 240px;
+  height: 170px;
+}
+
+.mainmid .cardany .content {
+  color: whitesmoke;
+  float: left;
+  margin: 60px 0 0 30px;
+  padding: 0px;
+}
+
+.mainmid .cardany .content h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mainmid .cardany .content h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.mainmid .cardkids {
+  border-top: 1px solid gray;
+  border-bottom: 0px solid gray;
+  background-color: black;
+  padding-bottom: 110px;
+  text-align: center;
+}
+
+.mainmid .cardkids img {
+  margin: 53px 50px 0 0;
+  position: relative;
+  left: 0px;
+  width: 240px;
+  height: 170px;
+}
+
+.mainmid .cardkids .content {
+  color: whitesmoke;
+  float: right;
+  margin: 75px 100px 0 40px;
+  position: relative;
+  left: -40px;
+  padding: 0px;
+}
+
+.mainmid .cardkids .content h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.mainmid .cardkids .content h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.mainmid .cardkids .content .jarak {
+  margin-top: -10px;
+}
+
+.mainmid .cardkids .content .jarak-h1 {
+  margin-top: -6px;
+}

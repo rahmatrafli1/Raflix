@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Fredoka", Arial, sans-serif;
+}
+
+/* untuk PC */
+@media (max-width: 1024px) {
+  .image-maintop form {
+    position: relative;
+    left: 30px;
+  }
+
+  .mainmid .cardtv .content {
+    position: relative;
+    left: 18px;
+  }
+}
+
+/* untuk tablet */
+@media (max-width: 1000px) {
+  .image-maintop .container .btn {
+    float: left;
+    margin: 5px 0 0 52%;
+  }
+
+  .mainmid .cardtv .content {
+    position: relative;
+    right: 15px;
+  }
+
+  .mainmid .cardhp {
+    padding: 0 0 38.519% 0;
+  }
+
+  .mainmid .cardhp .content {
+    position: relative;
+    left: 30px;
+    top: -30px;
+  }
+
+  .mainmid .cardhp img {
+    position: relative;
+    top: 10px;
+  }
+
+  .mainmid .cardkids {
+    padding: 0 0 40% 0;
+  }
+
+  .mainmid .cardkids .content {
+    position: relative;
+    left: 30px;
+  }
+
+  .mainmid .cardkids img {
+    position: relative;
+    left: 20px;
+  }
+}
+
+/* untuk smartphone ukuran L */
+@media (max-width: 670px) {
+  .image-maintop {
+    width: 171%;
+    height: 171%;
+  }
+
+  .image-maintop .container input[type="text"] {
+    width: 75%;
+    margin: auto;
+  }
+
+  .image-maintop .container .btn {
+    float: left;
+    margin: 25px 0 0 52%;
+  }
+
+  .mainmid {
+    width: 171%;
+    height: 171%;
+  }
+
+  .mainmid .content {
+    position: relative;
+    left: 10px;
+  }
+
+  .mainmid .cardtv .content h1 {
+    position: relative;
+    left: 10px;
+    margin: 0 10% 2% 0;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .mainmid .cardtv .content h2 {
+    position: relative;
+    left: -20px;
+    right: 30px;
+    margin: auto 10%;
+  }
+
+  .mainmid .cardhp {
+    padding: 0 0 38.519% 0;
+  }
+
+  .mainmid .cardhp .content {
+    position: relative;
+    top: -30px;
+    left: 30px;
+  }
+
+  .mainmid .cardany {
+    padding: 0 0 7.394% 0;
+  }
+
+  .mainmid .cardany .content {
+    position: relative;
+    left: -20px;
+  }
+
+  .mainmid .cardkids {
+    padding: 0 0 38.4999999999999999% 0;
+  }
+
+  .mainmid .cardkids .content {
+    position: relative;
+    left: 30px;
+  }
+}
+
+/* untuk smartphone ukuran M */
+@media (max-width: 375px) {
+  .image-maintop {
+    width: 171%;
+    height: 171%;
+  }
+
+  .image-maintop .container input[type="text"] {
+    width: 75%;
+    margin: auto;
+  }
+
+  .image-maintop .container .btn {
+    float: left;
+    margin: 25px 0 0 52%;
+  }
+
+  .mainmid {
+    width: 171%;
+    height: 171%;
+  }
+
+  .mainmid .content {
+    position: relative;
+    left: 10px;
+  }
+
+  .mainmid .cardtv .content h1 {
+    margin: 0 10% 2% 0;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .mainmid .cardtv .content h2 {
+    position: relative;
+    left: -20px;
+    right: 30px;
+    margin: auto 10%;
+  }
+
+  .mainmid .cardhp {
+    padding: 0 0 38.519% 0;
+  }
+
+  .mainmid .cardhp .content {
+    position: relative;
+    top: -30px;
+    left: 30px;
+  }
+
+  .mainmid .cardany {
+    padding: 0 0 7.394% 0;
+  }
+
+  .mainmid .cardany .content {
+    position: relative;
+    right: 20px;
+    top: -20px;
+  }
+
+  .mainmid .cardany img {
+    position: relative;
+    top: -20px;
+  }
+  .mainmid .cardkids {
+    padding: 0 0 38.4999999999999999% 0;
+  }
+
+  .mainmid .cardkids .content {
+    position: relative;
+    left: 30px;
+    top: -30px;
+  }
+}
+
+/* untuk smartphone ukuran S */
+@media (max-width: 320px) {
+  .image-maintop {
+    width: 171%;
+    height: 171%;
+  }
+
+  .image-maintop .container input[type="text"] {
+    width: 75%;
+    margin: auto;
+  }
+
+  .image-maintop .container .btn {
+    float: left;
+    margin: 25px 0 0 52%;
+  }
+
+  .mainmid {
+    width: 171%;
+    height: 171%;
+  }
+
+  .mainmid .cardtv .content h1 {
+    margin: 0 10% 2% 0;
+    position: relative;
+    left: -3px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .mainmid .cardtv .content h2 {
+    position: relative;
+    left: -20px;
+    right: 30px;
+    margin: auto 10%;
+  }
+
+  .mainmid .cardhp {
+    padding: 0 0 38.519% 0;
+  }
+
+  .mainmid .cardhp .content {
+    position: relative;
+    top: -80px;
+    left: 30px;
+  }
+
+  .mainmid .cardhp img {
+    position: relative;
+    top: -20px;
+  }
+
+  .mainmid .cardany {
+    padding: 0 0 7.394% 0;
+  }
+
+  .mainmid .cardany .content {
+    position: relative;
+    top: -70px;
+    right: 20px;
+  }
+
+  .mainmid .cardany img {
+    position: relative;
+    top: -70px;
+  }
+
+  .mainmid .cardkids {
+    padding: 0 0 38.4999999999999999% 0;
+  }
+
+  .mainmid .cardkids .content {
+    position: relative;
+    left: 30px;
+  }
+
+  .mainmid .cardkids .content h1 {
+    position: relative;
+    top: -20px;
+  }
+
+  .mainmid .cardkids .content h2 {
+    position: relative;
+    top: -20px;
+  }
+
+  .mainmid .cardkids img {
+    position: relative;
+    top: -20px;
+  }
+}
